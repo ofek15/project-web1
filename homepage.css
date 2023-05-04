@@ -1,0 +1,97 @@
+
+@keyframes slideinleft{
+             from { transform: translateX(-600px) }
+             to   {transform: translateX(0) }
+}
+.logo{
+      animation-name: slideinleft;
+      animation-duration: 1s;
+      animation-timing-function: ease-out;
+}
+.container-video{
+      display: flex;
+      justify-content: center;
+}
+  
+.banner{
+            position: relative;
+            width: 90%;
+            margin: 0 auto;
+}
+video{
+         width:100%;
+}
+@media only screen and (max-width: 391px)
+       {
+        video {
+          width: 100%;
+          height: auto;
+              }
+}
+.text-video{
+                color: white;
+                position: absolute;
+                top: 50%;
+                width: 100%;
+                text-align: center;
+                background-color: transparent;
+}
+.company-discription{
+                       padding-top: 100px;
+                       padding-right: 200px;
+                       padding-bottom: 100px;
+                       padding-left: 200px;
+                       text-align: center;
+                       color: #edf0f1;
+}
+@media only screen and (max-width: 760px) {
+                      .company-discription {
+                        padding-right: 10px;
+                       padding-bottom: 20px;
+                       padding-left: 10px; 
+                      }
+ }                 
+.welcome{
+          text-align: center;
+          color: #edf0f1;
+}
+.bottom-nav{
+      display: flex;
+      justify-content: space-evenly;
+}
+.bottom-nav-part{
+      display: flex;
+      flex-direction: column;
+      color: white;
+      font-size: 1vw;
+      margin-bottom: 1vw;
+}
+.bottom-nav-product-main{
+      font-size: 2vw;
+      border-bottom: 10px white;
+      margin-bottom: 2vw;
+}
+.bottom-nav-product{
+      margin-bottom: 0.5vw;
+}
+.bottom-nav-product:hover{
+      color: blue;
+}
+@media only screen and (max-width: 972px) {
+                 .bottom-nav-product-main{
+                           font-size: 3vw;
+                 }
+                 .bottom-nav-product{
+                  font-size: 2vw;
+                 }
+}
+.social-pics{
+    display: flex;
+    justify-content: center;
+}
+.logo-icon{
+            width: 50px;
+            height: 50px;
+            margin: 5px;
+}
+

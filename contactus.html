@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="contactus.css" />
+    <link rel="stylesheet" type="text/css" href="nav-bar.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul class="navigation">
+          <li><img class="logo" src="project-image/image_6487327.JPG" alt="logo"/> </li>
+          <li> <a href="./index.html"><div class="nav-item">Home page</div></a> </li>
+          <li> <a href="./product.html"><div class="nav-item">Our products</div></a> </li> 
+          <li> <a href="./contactus.html"><div class="nav-item">contact us</div></a> </li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="subjectpage">CONTACT US</div>
+    <h3 class="welcome">
+      For any question, leave a message in this form and we will get back to you
+      as soon as possible.
+    </h3>
+    <div class="full-c">
+      <div class="container">
+        <form action="action_page.php">
+          <label for="fname"></label>
+          <input
+            type="text"
+            id="fname"
+            name="firstname"
+            placeholder="Your name.."
+          />
+
+          <label for="lname"></label>
+          <input
+            type="text"
+            id="lname"
+            name="lastname"
+            placeholder="Your last name.."
+          />
+
+          <label for="country">Where are you from?</label>
+          <select id="country" name="country">
+            <option value="Tel Aviv">Tel Aviv</option>
+            <option value="Jerusalem">Jerusalem</option>
+            <option value="Shoham">Shoham</option>
+          </select>
+
+          <label for="subject"></label>
+          <textarea
+            id="subject"
+            name="subject"
+            placeholder="Write something.."
+            style="height: 200px"
+          ></textarea>
+
+          <input type="submit" value="Submit" />
+        </form>
+      </div>
+    </div>
+
+    <hr style="color: #edf0f1; width: 100%; margin-bottom: 50px" />
+    <h2 class="welcome">You are welcome to look for us here too...</h2>
+
+    <div class="social-pics">
+      <a href=""><img class="logo-icon" src="project-image/linkedinicon.png" alt="limkedin-logo"/></a> 
+      <a href=" https://wa.me/972525844400"><img class="logo-icon" src="project-image/whatsappicon.png" alt="whatsapp-logo"/></a>
+      <a href="https://www.instagram.com/ofeksegal15/" ><img class="logo-icon" src="project-image/instegramicon.png" alt="instegram-logo" /></a>
+    </div>
+  </body>
+</html>

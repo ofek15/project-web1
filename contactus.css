@@ -1,0 +1,70 @@
+
+.subjectpage{
+               font-size: 80px;
+               text-align: center;
+               color: #edf0f1;
+}                     
+.welcome{
+          text-align: center;
+          color: #edf0f1;
+}
+.full-c{
+          width: 100vw;
+          display: flex;
+          justify-content: center;
+}
+.container{  
+              color: white;
+              display: flex;
+              justify-content: center;
+              border-radius: 5px;
+              background-color: black;;
+              padding: 100px;
+              width: 60%;
+}
+@media only screen and (max-width: 391px){
+                      .container{width: 100%;}
+}
+input[type=text], select, textarea {
+                  width: 100%; 
+                  padding: 12px; 
+                  border: 1px solid white; 
+                  background-color: black;
+                  color:white;
+                  border-radius: 4px; 
+                  box-sizing: border-box; 
+                  margin-top: 6px; 
+                  margin-bottom: 16px; 
+                  resize: vertical
+}
+@media only screen and (max-width: 850px){
+  input[type=text], select, textarea {
+    width: 300px; 
+                                     }
+}
+ input[type=submit] {
+                  background-color: black;
+                  color: white;
+                  padding: 12px 20px;
+                  border-color: white;
+                  border-radius: 4px;
+                  cursor: pointer;
+                  align-items: center;
+}
+  input[type=submit]:hover {
+                  background-color: white;
+                  color:  black;
+                  border: none;
+                  border-radius: 4px;
+                  border-color: white;
+}     
+.social-pics{
+    display: flex;
+    justify-content: center;
+}
+.logo-icon{
+      width: 50px;
+      height: 50px;
+      margin: 5px;
+}
+                  

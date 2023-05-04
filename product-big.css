@@ -1,0 +1,27 @@
+
+.welcome{
+         text-align: center;
+         color: #edf0f1;
+}
+
+.img-pageofproduct{
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+          width: 20vw;
+          height: 55vw;
+}
+.text-pageofproduct{
+                    display: flex;
+                    justify-content: center;
+                    color: white;
+}
+.social-pics{
+            display: flex;
+            justify-content: center;
+}
+.logo-icon{
+           width: 50px;
+           height: 50px;
+           margin: 5px;
+}
